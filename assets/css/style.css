@@ -9,3 +9,22 @@ header {
   background-position: left;
   padding-bottom: 20rem;
 }
+span{
+  font-family: "Lobster";
+}
+
+.carousel-indicators {
+  top: 200px;
+}
+
+.carousel {
+  width:360px;
+  height:360px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000000;
+}
