@@ -2,6 +2,10 @@ body {
   font-family: "Cabin";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   background-image: url('../img/rod.jpg');
   background-repeat: no-repeat;
