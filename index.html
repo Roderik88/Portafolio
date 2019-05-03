@@ -76,9 +76,69 @@
       </div>
     </section>
 
-    <!-- carrousel -->
-    <section id="work-place" class="container">
+    <!-- card -->
+    <section id="work-place" class="container-fluid my-5 p-5">
       <h1 class="text-center font-weight-bold p-3"> Mi Experiencia Laboral</h1>
+
+      <div class="row">
+        <div class="card col-md-6 mb-4" style="width: 18rem;">
+          <img src="assets/img/san-francisco.png" class="card-img-top" alt="San Francisco">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#s-f">Colegio</button>
+          </div>
+        </div>
+
+        <div class="card col-md-6 mb-4" style="width: 18rem;">
+          <img src="assets/img/contigo-aprendo.png" class="card-img-top" alt="Contigo Aprendo">
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#c-a">MINEDUC</button>
+          </div>
+        </div>
+
+      </div>
+
+        <!-- Modal -->
+          <div class="modal fade" id="s-f" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Colegio San Francisco de Machali <br> Rancagua</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal -->
+            <div class="modal fade" id="c-a" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Plan de Alfabetización <br>Contigo Aprendo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
 
     </section>
 
