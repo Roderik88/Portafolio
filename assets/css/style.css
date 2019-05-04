@@ -1,12 +1,13 @@
 body {
   font-family: "Cabin";
+  background-color: #B0E7FF;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-header {
+#header {
   background-image: url('../img/rod.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,4 +16,5 @@ header {
 }
 span{
   font-family: "Lobster";
+  font-size: 35px;
 }

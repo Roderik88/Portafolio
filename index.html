@@ -45,11 +45,11 @@
     </nav>
 
     <!-- titulo -->
-    <header class="text-light text-center pt-5 mt-5">
+    <section id="header" class="text-light text-center pt-5 mt-5">
       <div class="container">
         <h1><span>Rodrigo Hernán Lindenmeyer Toledo</span></h1>
-    </div>
-    </header>
+      </div>
+    </section>
 
     <!-- acerca de mi -->
     <section id="about" class="d-none d-md-block">
@@ -76,26 +76,29 @@
       </div>
     </section>
 
-    <!-- card -->
+    <!-- card workplace -->
     <section id="work-place" class="container-fluid my-5 p-5">
       <h1 class="text-center font-weight-bold p-3"> Mi Experiencia Laboral</h1>
 
       <div class="row">
-        <div class="card col-md-6 mb-4" style="width: 18rem;">
+        <div class="col-md-6 mb-4">
+        <div class="card text-center">
           <img src="assets/img/san-francisco.png" class="card-img-top" alt="San Francisco">
           <div class="card-body">
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#s-f">Colegio</button>
           </div>
         </div>
-
-        <div class="card col-md-6 mb-4" style="width: 18rem;">
+      </div>
+        <div class="col-md-6 mb-4">
+        <div class="card text-center">
           <img src="assets/img/contigo-aprendo.png" class="card-img-top" alt="Contigo Aprendo">
           <div class="card-body">
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#c-a">MINEDUC</button>
           </div>
         </div>
+      </div>
 
       </div>
 
@@ -147,17 +150,23 @@
       <h1 class="text-center font-weight-bold p-3"> Mis Trabajos</h1>
       <div class="row">
         <div class="p-4">
-          <img class="img-fluid p-4" src="assets/img/meet_coffee.png" alt="Meet_and_Coffee">
-          <img class="img-fluid p-4" src="assets/img/iguana_page.png" alt="Iguana">
-          <img class="img-fluid p-4" src="assets/img/suricata.png" alt="Suricata">
-          <img class="img-fluid p-4" src="assets/img/cuppon.png" alt="Cuppon">
-          <img class="img-fluid p-4" src="assets/img/ricomida.png" alt="Ricomida">
+          <img class="img-fluid p-4" data-container="body" data-toggle="tooltip" data-placement="bottom" title="Proyecto Meet & Coffee" src="assets/img/meet_coffee.png" alt="Meet_and_Coffee">
+
+          <img class="img-fluid p-4" data-container="body" data-toggle="tooltip" data-placement="bottom" title="Proyecto Iguana" src="assets/img/iguana_page.png" alt="Iguana">
+
+          <img class="img-fluid p-4" data-container="body" data-toggle="tooltip" data-placement="bottom" title="Proyecto Suricata" src="assets/img/suricata.png" alt="Suricata">
+
+          <img class="img-fluid p-4" data-container="body" data-toggle="tooltip" data-placement="bottom" title="Proyecto Cuppon" src="assets/img/cuppon.png" alt="Cuppon">
+
+          <img class="img-fluid p-4" data-container="body" data-toggle="tooltip" data-placement="bottom" title="Proyecto Ricomida" src="assets/img/ricomida.png" alt="Ricomida">
+
         </div>
 
       </div>
 
     </section>
 
+    <!-- typeform -->
     <section id="contact" class="container my-5">
       <h2 class="display-3 font-weight-bold text-center my-4">Contacto</h2>
       <hr>
@@ -165,8 +174,16 @@
 
     </section>
 
-    <footer class="bg-dark text-center text-white p-3"><span>Rodrigo</span>
-    </footer>
+    <!-- footer -->
+    <section>
+
+      <footer class="bg-dark text-center text-white p-4 col-12"><span>Rodrigo</span>
+        <i class="fab fa-github fa-2x"></i>
+        <i class="fab fa-facebook-square fa-2x"></i>
+        <i class="fab fa-twitter-square fa-2x"></i>
+        <i class="fab fa-linkedin-in fa-2x"></i>
+      </footer>
+    </section>
 
     <!-- jQuery sin slim -->
     <script
@@ -182,7 +199,7 @@
     <script
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <script type="assets/js/script.js">
+    <script src="assets/js/script.js">
 
     </script>
 
